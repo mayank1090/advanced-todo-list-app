@@ -1,0 +1,81 @@
+
+h1{
+  text-align: center;
+  
+}
+
+body{
+background: rgb(255, 173, 65);
+}
+
+.todo-container{
+width: 40vw;
+margin: 10px;
+margin-left: 400px;
+border-radius: 15px;
+padding: 20px 10px;
+color: black;
+border: 3px solid black
+}
+  
+.task{
+border: 1px solid black;
+border-radius: 5px;
+padding: 0.5em;
+margin: 0.5em;
+}
+
+.task button{
+background: rgb(12, 124, 251);
+border-radius: 5px;
+margin: 0px 5px;
+padding: 3px 5px;
+border: none;
+cursor: pointer;
+color: white;
+float: right;
+}
+
+.header{
+margin: 0.5em;
+font-size: 2em;
+text-align: center;
+}
+
+.create-task input[type=text]{
+margin: 2.5em 2em;
+width: 56%;
+outline: none;
+border: none;
+padding: 0.7em;
+}
+
+#postbutton{
+  width: 60px;
+  height: 40px;
+  background-color: white;
+  color:black;
+  border-radius: 5px;
+}
+#remove{
+  background-color: red;
+}
+
+#complete{
+  background-color: green;
+}
+
+.same{
+  margin: 8px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#selection{
+  float: right;
+  margin-left: 20px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin-top: -70px;
+}
